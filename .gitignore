@@ -22,3 +22,4 @@ testrunner/*
 src/test/current testng.xml
 src/main/webapp/WEB-INF/classes
 *.exe
+.settings/com.google.appengine.eclipse.core.prefs
