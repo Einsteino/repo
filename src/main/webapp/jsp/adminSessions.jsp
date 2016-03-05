@@ -14,10 +14,10 @@
 <ta:adminPage bodyTitle="Ongoing Sessions" pageTitle="TEAMMATES - Administrator Sessions" jsIncludes="${jsIncludes}">
     <h1>
         <small> 
-            Total: ${data.totalOngoingSessions} &nbsp; &nbsp;
-            Opened: ${data.totalOpenStatusSessions} &nbsp; &nbsp;
-            Closed: ${data.totalClosedStatusSessions} &nbsp; &nbsp;
-            Waiting To Open: ${data.totalWaitToOpenStatusSessions} &nbsp; &nbsp;
+            Total: ${data.totalOngoingSessions} &nbsp; &nbsp; | &nbsp;
+            Opened: ${data.totalOpenStatusSessions} &nbsp; &nbsp; | &nbsp;
+            Closed: ${data.totalClosedStatusSessions} &nbsp; &nbsp; | &nbsp;
+            Waiting To Open: ${data.totalWaitToOpenStatusSessions} &nbsp; &nbsp; | &nbsp;
             Institutions: ${data.totalInstitutes} &nbsp; &nbsp;
             <br>
             ${data.rangeStartString}&nbsp;&nbsp;
